@@ -394,7 +394,7 @@ void enc28j60_isr()
 
     /* get EIR */
     eir = spi_read(EIR);
-    rt_kprintf("\neir: 0x%08x\n", eir);
+    //rt_kprintf("\neir: 0x%08x\n", eir);
     do
     {
         /* clear DMAIF */
@@ -457,7 +457,7 @@ void enc28j60_isr()
         }
 
         eir = spi_read(EIR);
-        rt_kprintf("inner eir: 0x%08x\n", eir);
+        //rt_kprintf("inner eir: 0x%08x\n", eir);
     } while ((rx_activiated != RT_TRUE && eir != 0));
 }
 
@@ -770,7 +770,7 @@ struct pbuf *enc28j60_rx(rt_device_t dev)
 
     p = RT_NULL;
 
-    rt_kprintf("In enc28j60_rx()\r\n");
+    //rt_kprintf("In enc28j60_rx()\r\n");
 
     /* lock enc28j60 */
     rt_sem_take(&lock_sem, RT_WAITING_FOREVER);
@@ -813,7 +813,7 @@ struct pbuf *enc28j60_rx(rt_device_t dev)
         else
 #endif            
         {
-            rt_kprintf("\nIn enc28j60_rx() ulLen:%u \r\n", usLen);
+            //rt_kprintf("\nIn enc28j60_rx() ulLen:%u \r\n", usLen);
             /* allocation pbuf */
             p = pbuf_alloc(PBUF_LINK, usLen, PBUF_RAM);
             if (p != RT_NULL)
