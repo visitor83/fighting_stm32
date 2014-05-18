@@ -1,9 +1,0 @@
-.\obj\ff.o: ..\..\filesystem\dfs\filesystems\elmfat\ff.c
-.\obj\ff.o: ..\..\filesystem\dfs\filesystems\elmfat\ff.h
-.\obj\ff.o: ..\..\include\rtthread.h
-.\obj\ff.o: ..\..\include\rtdef.h
-.\obj\ff.o: .\rtconfig.h
-.\obj\ff.o: C:\Keil\ARM\RV31\INC\stdarg.h
-.\obj\ff.o: ..\..\filesystem\dfs\filesystems\elmfat\integer.h
-.\obj\ff.o: ..\..\filesystem\dfs\filesystems\elmfat\ffconf.h
-.\obj\ff.o: ..\..\filesystem\dfs\filesystems\elmfat\diskio.h
