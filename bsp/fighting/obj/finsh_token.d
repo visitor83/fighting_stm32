@@ -1,0 +1,11 @@
+.\obj\finsh_token.o: ..\..\finsh\finsh_token.c
+.\obj\finsh_token.o: ..\..\finsh\finsh.h
+.\obj\finsh_token.o: ..\..\include\rtthread.h
+.\obj\finsh_token.o: ..\..\include\rtdef.h
+.\obj\finsh_token.o: .\rtconfig.h
+.\obj\finsh_token.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\finsh_token.o: C:\Keil\ARM\RV31\INC\ctype.h
+.\obj\finsh_token.o: C:\Keil\ARM\RV31\INC\stdlib.h
+.\obj\finsh_token.o: C:\Keil\ARM\RV31\INC\string.h
+.\obj\finsh_token.o: ..\..\finsh\finsh_token.h
+.\obj\finsh_token.o: ..\..\finsh\finsh_error.h

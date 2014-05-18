@@ -1,0 +1,12 @@
+.\obj\utils.o: utils.c
+.\obj\utils.o: ..\..\include\rtthread.h
+.\obj\utils.o: ..\..\include\rtdef.h
+.\obj\utils.o: .\rtconfig.h
+.\obj\utils.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\utils.o: C:\Keil\ARM\RV31\INC\string.h
+.\obj\utils.o: ..\..\filesystem\dfs\include\dfs_posix.h
+.\obj\utils.o: ..\..\filesystem\dfs\include\dfs_raw.h
+.\obj\utils.o: ..\..\filesystem\dfs\include\dfs_def.h
+.\obj\utils.o: ..\..\filesystem\dfs\dfs_config.h
+.\obj\utils.o: ..\..\filesystem\dfs\include\dfs_fs.h
+.\obj\utils.o: utils.h

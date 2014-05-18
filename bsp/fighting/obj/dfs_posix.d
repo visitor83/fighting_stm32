@@ -1,0 +1,12 @@
+.\obj\dfs_posix.o: ..\..\filesystem\dfs\src\dfs_posix.c
+.\obj\dfs_posix.o: C:\Keil\ARM\RV31\INC\string.h
+.\obj\dfs_posix.o: ..\..\filesystem\dfs\include\dfs_util.h
+.\obj\dfs_posix.o: ..\..\filesystem\dfs\include\dfs_def.h
+.\obj\dfs_posix.o: ..\..\include\rtthread.h
+.\obj\dfs_posix.o: ..\..\include\rtdef.h
+.\obj\dfs_posix.o: .\rtconfig.h
+.\obj\dfs_posix.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\dfs_posix.o: ..\..\filesystem\dfs\dfs_config.h
+.\obj\dfs_posix.o: ..\..\filesystem\dfs\include\dfs_posix.h
+.\obj\dfs_posix.o: ..\..\filesystem\dfs\include\dfs_raw.h
+.\obj\dfs_posix.o: ..\..\filesystem\dfs\include\dfs_fs.h

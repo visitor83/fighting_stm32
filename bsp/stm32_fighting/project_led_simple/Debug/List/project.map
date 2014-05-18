@@ -1,0 +1,701 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.10.1.52143/W32 for ARM              07/Apr/2012  17:47:25 #
+# Copyright 2007-2010 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Exe\project.out               #
+#    Map file     =  J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\List\project.map              #
+#    Command line =  J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\application.o             #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\board.o                   #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\clock.o                   #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\context_iar.o             #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\core_cm3.o                #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\cpu.o                     #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\device.o                  #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\dfs_elm.o                 #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\dfs_fs.o                  #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\dfs_init.o                #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\dfs_posix.o               #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\dfs_raw.o                 #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\dfs_util.o                #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\fault.o                   #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\fault_iar.o               #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\ff.o                      #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\idle.o                    #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\interrupt.o               #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\ipc.o                     #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\irq.o                     #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\kservice.o                #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\led.o                     #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\mem.o                     #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\mempool.o                 #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\misc.o                    #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\object.o                  #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\scheduler.o               #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\serial.o                  #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\slab.o                    #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stack.o                   #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\start_iar.o               #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\startup.o                 #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_adc.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_bkp.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_can.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_cec.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_crc.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_dac.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_dbgmcu.o        #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_dma.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_exti.o          #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_flash.o         #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_fsmc.o          #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_gpio.o          #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_i2c.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_it.o            #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_iwdg.o          #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_pwr.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_rcc.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_rtc.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_sdio.o          #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_spi.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_tim.o           #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_usart.o         #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\stm32f10x_wwdg.o          #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\system_stm32f10x.o        #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\thread.o                  #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\timer.o                   #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Obj\usart.o --redirect        #
+#                    _Printf=_PrintfTiny --redirect _Scanf=_ScanfSmall -o     #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\Exe\project.out --map         #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\Debug\List\project.map --config     #
+#                    J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fightin #
+#                    g\project_led_simple\stm32f10x_flash.icf --entry         #
+#                    __iar_program_start                                      #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] {
+          rw, block CSTACK, last block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x150
+  .intvec            ro code  0x08000000   0x150  start_iar.o [1]
+                            - 0x08000150   0x150
+
+"P1":                                     0x2c74
+  .text              ro code  0x08000150   0x618  kservice.o [1]
+  .text              ro code  0x08000768   0x5ac  thread.o [1]
+  .text              ro code  0x08000d14   0x240  device.o [1]
+  .text              ro code  0x08000f54    0x64  stack.o [1]
+  .text              ro code  0x08000fb8   0x348  timer.o [1]
+  .text              ro code  0x08001300   0x168  object.o [1]
+  .text              ro code  0x08001468    0xa8  context_iar.o [1]
+  .text              ro code  0x08001510   0x50c  scheduler.o [1]
+  .text              ro code  0x08001a1c    0x3c  clock.o [1]
+  .text              ro code  0x08001a58   0x458  serial.o [1]
+  .text              ro code  0x08001eb0   0x198  mempool.o [1]
+  .text              ro code  0x08002048   0x156  stm32f10x_usart.o [1]
+  .text              ro code  0x0800219e    0x2e  copy_init3.o [4]
+  .text              ro code  0x080021cc    0x1a  stm32f10x_dma.o [1]
+  .text              ro code  0x080021e6    0x22  zero_init3.o [4]
+  .text              ro code  0x08002208    0xf8  stm32f10x_rcc.o [1]
+  .text              ro code  0x08002300   0x150  system_stm32f10x.o [1]
+  .text              ro code  0x08002450   0x11c  application.o [1]
+  .text              ro code  0x0800256c    0x7c  led.o [1]
+  .text              ro code  0x080025e8    0xd8  stm32f10x_gpio.o [1]
+  .text              ro code  0x080026c0   0x104  fault.o [1]
+  .text              ro code  0x080027c4   0x104  usart.o [1]
+  .text              ro code  0x080028c8    0xbc  misc.o [1]
+  .text              ro code  0x08002984    0xd0  board.o [1]
+  .text              ro code  0x08002a54    0x30  irq.o [1]
+  Initializer bytes  ro data  0x08002a84    0xb0  <for P2 mid-1>
+  .text              ro code  0x08002b34    0x5c  idle.o [1]
+  .text              ro code  0x08002b90    0x3c  startup.o [1]
+  .text              ro code  0x08002bcc    0x2c  data_init3.o [4]
+  .iar.init_table    const    0x08002bf8    0x24  - Linker created -
+  .text              ro code  0x08002c1c    0x1c  start_iar.o [1]
+  .text              ro code  0x08002c38    0x16  cmain.o [4]
+  .text              ro code  0x08002c4e     0x8  exit.o [3]
+  .text              ro code  0x08002c58     0xa  cexit.o [4]
+  .text              ro code  0x08002c64     0xc  XXexit.o [4]
+  .text              ro code  0x08002c70    0x14  fault_iar.o [1]
+  .text              ro code  0x08002c84     0xc  stm32f10x_it.o [1]
+  .text              ro code  0x08002c90     0xc  cstartup_M.o [4]
+  .text              ro code  0x08002c9c     0x4  start_iar.o [1]
+  .text              ro code  0x08002ca0     0x4  start_iar.o [1]
+  .text              ro code  0x08002ca4     0x4  start_iar.o [1]
+  .text              ro code  0x08002ca8     0x4  start_iar.o [1]
+  .text              ro code  0x08002cac     0x4  start_iar.o [1]
+  .text              ro code  0x08002cb0     0x4  start_iar.o [1]
+  .text              ro code  0x08002cb4     0x4  start_iar.o [1]
+  .text              ro code  0x08002cb8     0x4  start_iar.o [1]
+  .text              ro code  0x08002cbc     0x4  start_iar.o [1]
+  .text              ro code  0x08002cc0     0x4  start_iar.o [1]
+  .text              ro code  0x08002cc4     0x4  start_iar.o [1]
+  .text              ro code  0x08002cc8     0x4  start_iar.o [1]
+  .text              ro code  0x08002ccc     0x4  start_iar.o [1]
+  .text              ro code  0x08002cd0     0x4  start_iar.o [1]
+  .text              ro code  0x08002cd4     0x4  start_iar.o [1]
+  .text              ro code  0x08002cd8     0x4  start_iar.o [1]
+  .text              ro code  0x08002cdc     0x4  start_iar.o [1]
+  .text              ro code  0x08002ce0     0x4  start_iar.o [1]
+  .text              ro code  0x08002ce4     0x4  start_iar.o [1]
+  .text              ro code  0x08002ce8     0x4  start_iar.o [1]
+  .text              ro code  0x08002cec     0x4  start_iar.o [1]
+  .text              ro code  0x08002cf0     0x4  start_iar.o [1]
+  .text              ro code  0x08002cf4     0x4  start_iar.o [1]
+  .text              ro code  0x08002cf8     0x4  start_iar.o [1]
+  .text              ro code  0x08002cfc     0x4  start_iar.o [1]
+  .text              ro code  0x08002d00     0x4  start_iar.o [1]
+  .text              ro code  0x08002d04     0x4  start_iar.o [1]
+  .text              ro code  0x08002d08     0x4  start_iar.o [1]
+  .text              ro code  0x08002d0c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d10     0x4  start_iar.o [1]
+  .text              ro code  0x08002d14     0x4  start_iar.o [1]
+  .text              ro code  0x08002d18     0x4  start_iar.o [1]
+  .text              ro code  0x08002d1c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d20     0x4  start_iar.o [1]
+  .text              ro code  0x08002d24     0x4  start_iar.o [1]
+  .text              ro code  0x08002d28     0x4  start_iar.o [1]
+  .text              ro code  0x08002d2c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d30     0x4  start_iar.o [1]
+  .text              ro code  0x08002d34     0x4  start_iar.o [1]
+  .text              ro code  0x08002d38     0x4  start_iar.o [1]
+  .text              ro code  0x08002d3c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d40     0x4  start_iar.o [1]
+  .text              ro code  0x08002d44     0x4  start_iar.o [1]
+  .text              ro code  0x08002d48     0x4  start_iar.o [1]
+  .text              ro code  0x08002d4c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d50     0x4  start_iar.o [1]
+  .text              ro code  0x08002d54     0x4  start_iar.o [1]
+  .text              ro code  0x08002d58     0x4  start_iar.o [1]
+  .text              ro code  0x08002d5c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d60     0x4  start_iar.o [1]
+  .text              ro code  0x08002d64     0x4  start_iar.o [1]
+  .text              ro code  0x08002d68     0x4  start_iar.o [1]
+  .text              ro code  0x08002d6c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d70     0x4  start_iar.o [1]
+  .text              ro code  0x08002d74     0x4  start_iar.o [1]
+  .text              ro code  0x08002d78     0x4  start_iar.o [1]
+  .text              ro code  0x08002d7c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d80     0x4  start_iar.o [1]
+  .text              ro code  0x08002d84     0x4  start_iar.o [1]
+  .text              ro code  0x08002d88     0x4  start_iar.o [1]
+  .text              ro code  0x08002d8c     0x4  start_iar.o [1]
+  .text              ro code  0x08002d90     0x4  start_iar.o [1]
+  .text              ro code  0x08002d94     0x4  start_iar.o [1]
+  .text              ro code  0x08002d98     0x4  start_iar.o [1]
+  .text              ro code  0x08002d9c     0x4  start_iar.o [1]
+  .text              ro code  0x08002da0     0x4  start_iar.o [1]
+  .text              ro code  0x08002da4     0x4  start_iar.o [1]
+  .text              ro code  0x08002da8     0x4  start_iar.o [1]
+  .text              ro code  0x08002dac     0x4  start_iar.o [1]
+  .text              ro code  0x08002db0     0x4  start_iar.o [1]
+  .text              ro code  0x08002db4     0x4  start_iar.o [1]
+  .text              ro code  0x08002db8     0x4  start_iar.o [1]
+  .text              ro code  0x08002dbc     0x4  start_iar.o [1]
+  .text              ro code  0x08002dc0     0x4  start_iar.o [1]
+                            - 0x08002dc4  0x2c74
+
+"P2":                                      0xb78
+  P2 mid-1                    0x20000000    0xb0  <Init block>
+    .data            inited   0x20000000    0x90  object.o [1]
+    .data            inited   0x20000090    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x200000a0     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x200000a4     0xc  usart.o [1]
+  .bss               zero     0x200000b0   0x200  application.o [1]
+  .bss               zero     0x200002b0    0x7c  application.o [1]
+  .bss               zero     0x2000032c   0x200  application.o [1]
+  .bss               zero     0x2000052c    0x7c  application.o [1]
+  .bss               zero     0x200005a8     0x4  clock.o [1]
+  .bss               zero     0x200005ac    0x7c  idle.o [1]
+  .bss               zero     0x20000628   0x100  idle.o [1]
+  .bss               zero     0x20000728     0x4  idle.o [1]
+  .bss               zero     0x2000072c     0x4  interrupt.o [1]
+  .bss               zero     0x20000730     0x4  interrupt.o [1]
+  .bss               zero     0x20000734     0x4  interrupt.o [1]
+  .bss               zero     0x20000738     0x4  kservice.o [1]
+  .bss               zero     0x2000073c     0x4  kservice.o [1]
+  .bss               zero     0x20000740    0x80  kservice.o [1]
+  .bss               zero     0x200007c0     0x4  mempool.o [1]
+  .bss               zero     0x200007c4     0x4  object.o [1]
+  .bss               zero     0x200007c8     0x4  object.o [1]
+  .bss               zero     0x200007cc     0x4  object.o [1]
+  .bss               zero     0x200007d0   0x100  scheduler.o [1]
+  .bss               zero     0x200008d0     0x4  scheduler.o [1]
+  .bss               zero     0x200008d4     0x4  scheduler.o [1]
+  .bss               zero     0x200008d8     0x4  scheduler.o [1]
+  .bss               zero     0x200008dc     0x8  timer.o [1]
+  .bss               zero     0x200008e4     0x4  timer.o [1]
+  .bss               zero     0x200008e8    0x48  usart.o [1]
+  .bss               zero     0x20000930    0x40  usart.o [1]
+  .bss               zero     0x20000970     0x2  scheduler.o [1]
+  .bss               zero     0x20000972     0x1  irq.o [1]
+  .bss               zero     0x20000973     0x1  scheduler.o [1]
+  CSTACK                      0x20000978   0x200  <Block>
+    CSTACK           uninit   0x20000978   0x200  <Block tail>
+                            - 0x20000b78   0xb78
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x8c4:
+          0x200000b0  0x8c4
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xb0:
+          0x08002a84   0xb0
+    1 destination range, total size 0xb0:
+          0x20000000   0xb0
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fighting\project_led_simple\Debug\Obj: [1]
+    application.o           284             1 272
+    board.o                 208
+    clock.o                  60                 4
+    context_iar.o           168
+    device.o                576
+    fault.o                 260
+    fault_iar.o              20
+    idle.o                   92               384
+    interrupt.o                                12
+    irq.o                    48                 1
+    kservice.o            1 560               136
+    led.o                   124
+    mempool.o               408                 4
+    misc.o                  188
+    object.o                360      144      156
+    scheduler.o           1 292               271
+    serial.o              1 112
+    stack.o                 100
+    start_iar.o             660
+    startup.o                60
+    stm32f10x_dma.o          26
+    stm32f10x_gpio.o        216
+    stm32f10x_it.o           12
+    stm32f10x_rcc.o         248       20       20
+    stm32f10x_usart.o       342
+    system_stm32f10x.o      336
+    thread.o              1 452
+    timer.o                 840                12
+    usart.o                 260       12      148
+    ---------------------------------------------
+    Total:               11 312      176    2 420
+
+command line: [2]
+    ---------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                    8
+    ---------------------------------------------
+    Total:                    8
+
+rt7M_tl.a: [4]
+    XXexit.o                 12
+    cexit.o                  10
+    cmain.o                  22
+    copy_init3.o             46
+    cstartup_M.o             12
+    data_init3.o             44
+    zero_init3.o             34
+    ---------------------------------------------
+    Total:                  180
+
+    Gaps                      4                 4
+    Linker created                    36      512
+-------------------------------------------------
+    Grand Total:         11 504      212    2 936
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08002c39         Code  Gb  cmain.o [4]
+ADC1_2_IRQHandler       0x08002cfd         Code  Wk  start_iar.o [1]
+ADC3_IRQHandler         0x08002d71         Code  Wk  start_iar.o [1]
+ADCPrescTable           0x200000a0    0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x20000090   0x10  Data  Lc  stm32f10x_rcc.o [1]
+BusFault_Handler        0x08002c89    0x2  Code  Gb  stm32f10x_it.o [1]
+CAN1_RX1_IRQHandler     0x08002d09         Code  Wk  start_iar.o [1]
+CAN1_SCE_IRQHandler     0x08002d0d         Code  Wk  start_iar.o [1]
+CAN2_RX0_IRQHandler     0x08002db5         Code  Wk  start_iar.o [1]
+CAN2_RX1_IRQHandler     0x08002db9         Code  Wk  start_iar.o [1]
+CAN2_SCE_IRQHandler     0x08002dbd         Code  Wk  start_iar.o [1]
+CAN2_TX_IRQHandler      0x08002db1         Code  Wk  start_iar.o [1]
+CSTACK$$Base            0x20000978          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000b78          --   Gb  - Linker created -
+DMA1_Channel1_IRQHandler
+                        0x08002ce1         Code  Wk  start_iar.o [1]
+DMA1_Channel2_IRQHandler
+                        0x08002ce5         Code  Wk  start_iar.o [1]
+DMA1_Channel3_IRQHandler
+                        0x08002ce9         Code  Wk  start_iar.o [1]
+DMA1_Channel4_IRQHandler
+                        0x08002ced         Code  Wk  start_iar.o [1]
+DMA1_Channel5_IRQHandler
+                        0x08002cf1         Code  Wk  start_iar.o [1]
+DMA1_Channel6_IRQHandler
+                        0x08002cf5         Code  Wk  start_iar.o [1]
+DMA1_Channel7_IRQHandler
+                        0x08002cf9         Code  Wk  start_iar.o [1]
+DMA2_Channel1_IRQHandler
+                        0x08002d95         Code  Wk  start_iar.o [1]
+DMA2_Channel2_IRQHandler
+                        0x08002d99         Code  Wk  start_iar.o [1]
+DMA2_Channel3_IRQHandler
+                        0x08002d9d         Code  Wk  start_iar.o [1]
+DMA2_Channel4_5_IRQHandler
+                        0x08002da1         Code  Wk  start_iar.o [1]
+DMA2_Channel5_IRQHandler
+                        0x08002da5         Code  Wk  start_iar.o [1]
+DMA_Cmd                 0x080021cd   0x1a  Code  Gb  stm32f10x_dma.o [1]
+DMA_Configuration       0x0800282d    0x2  Code  Lc  usart.o [1]
+DebugMon_Handler        0x08002c8f    0x2  Code  Gb  stm32f10x_it.o [1]
+ETH_IRQHandler          0x08002da9         Code  Wk  start_iar.o [1]
+ETH_WKUP_IRQHandler     0x08002dad         Code  Wk  start_iar.o [1]
+EXTI0_IRQHandler        0x08002ccd         Code  Wk  start_iar.o [1]
+EXTI15_10_IRQHandler    0x08002d55         Code  Wk  start_iar.o [1]
+EXTI1_IRQHandler        0x08002cd1         Code  Wk  start_iar.o [1]
+EXTI2_IRQHandler        0x08002cd5         Code  Wk  start_iar.o [1]
+EXTI3_IRQHandler        0x08002cd9         Code  Wk  start_iar.o [1]
+EXTI4_IRQHandler        0x08002cdd         Code  Wk  start_iar.o [1]
+EXTI9_5_IRQHandler      0x08002d11         Code  Wk  start_iar.o [1]
+FLASH_IRQHandler        0x08002cc5         Code  Wk  start_iar.o [1]
+FSMC_IRQHandler         0x08002d75         Code  Wk  start_iar.o [1]
+GPIO_Configuration      0x080027db   0x36  Code  Lc  usart.o [1]
+GPIO_Init               0x080025e9   0xcc  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x080026bb    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x080026b5    0x6  Code  Gb  stm32f10x_gpio.o [1]
+I2C1_ER_IRQHandler      0x08002d35         Code  Wk  start_iar.o [1]
+I2C1_EV_IRQHandler      0x08002d31         Code  Wk  start_iar.o [1]
+I2C2_ER_IRQHandler      0x08002d3d         Code  Wk  start_iar.o [1]
+I2C2_EV_IRQHandler      0x08002d39         Code  Wk  start_iar.o [1]
+MemManage_Handler       0x08002c87    0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler             0x08002c85    0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Configuration      0x080029ed   0x16  Code  Gb  board.o [1]
+NVIC_Configuration      0x08002811   0x1c  Code  Lc  usart.o [1]
+NVIC_Init               0x080028d3   0x66  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x080028c9    0xa  Code  Gb  misc.o [1]
+NVIC_SetPriority        0x08002985   0x22  Code  Lc  board.o [1]
+NVIC_SetVectorTable     0x08002939    0xc  Code  Gb  misc.o [1]
+OTG_FS_IRQHandler       0x08002dc1         Code  Wk  start_iar.o [1]
+OTG_FS_WKUP_IRQHandler  0x08002d5d         Code  Wk  start_iar.o [1]
+PVD_IRQHandler          0x08002cb9         Code  Wk  start_iar.o [1]
+RCC_APB2PeriphClockCmd  0x080022c9   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_Configuration       0x080027c5   0x16  Code  Lc  usart.o [1]
+RCC_GetClocksFreq       0x08002209   0xc0  Code  Gb  stm32f10x_rcc.o [1]
+RCC_IRQHandler          0x08002cc9         Code  Wk  start_iar.o [1]
+RTCAlarm_IRQHandler     0x08002d59         Code  Wk  start_iar.o [1]
+RTC_IRQHandler          0x08002cc1         Code  Wk  start_iar.o [1]
+Region$$Table$$Base     0x08002bf8          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08002c1c          --   Gb  - Linker created -
+SDIO_IRQHandler         0x08002d79         Code  Wk  start_iar.o [1]
+SPI1_IRQHandler         0x08002d41         Code  Wk  start_iar.o [1]
+SPI2_IRQHandler         0x08002d45         Code  Wk  start_iar.o [1]
+SPI3_IRQHandler         0x08002d81         Code  Wk  start_iar.o [1]
+SVC_Handler             0x08002c8d    0x2  Code  Gb  stm32f10x_it.o [1]
+SetSysClock             0x0800234d    0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x08002355   0xe0  Code  Lc  system_stm32f10x.o [1]
+SysTick_CLKSourceConfig
+                        0x08002945   0x20  Code  Gb  misc.o [1]
+SysTick_Config          0x080029a7   0x30  Code  Lc  board.o [1]
+SysTick_Configuration   0x08002a03   0x20  Code  Gb  board.o [1]
+SystemInit              0x08002301   0x4c  Code  Gb  system_stm32f10x.o [1]
+SystemInit_ExtMemCtl    0x08002c1d         Code  Wk  start_iar.o [1]
+TAMPER_IRQHandler       0x08002cbd         Code  Wk  start_iar.o [1]
+TIM1_BRK_IRQHandler     0x08002d15         Code  Wk  start_iar.o [1]
+TIM1_CC_IRQHandler      0x08002d21         Code  Wk  start_iar.o [1]
+TIM1_TRG_COM_IRQHandler
+                        0x08002d1d         Code  Wk  start_iar.o [1]
+TIM1_UP_IRQHandler      0x08002d19         Code  Wk  start_iar.o [1]
+TIM2_IRQHandler         0x08002d25         Code  Wk  start_iar.o [1]
+TIM3_IRQHandler         0x08002d29         Code  Wk  start_iar.o [1]
+TIM4_IRQHandler         0x08002d2d         Code  Wk  start_iar.o [1]
+TIM5_IRQHandler         0x08002d7d         Code  Wk  start_iar.o [1]
+TIM6_IRQHandler         0x08002d8d         Code  Wk  start_iar.o [1]
+TIM7_IRQHandler         0x08002d91         Code  Wk  start_iar.o [1]
+TIM8_BRK_IRQHandler     0x08002d61         Code  Wk  start_iar.o [1]
+TIM8_CC_IRQHandler      0x08002d6d         Code  Wk  start_iar.o [1]
+TIM8_TRG_COM_IRQHandler
+                        0x08002d69         Code  Wk  start_iar.o [1]
+TIM8_UP_IRQHandler      0x08002d65         Code  Wk  start_iar.o [1]
+UART4_IRQHandler        0x08002d85         Code  Wk  start_iar.o [1]
+UART5_IRQHandler        0x08002d89         Code  Wk  start_iar.o [1]
+USART1_IRQHandler       0x08002d49         Code  Wk  start_iar.o [1]
+USART2_IRQHandler       0x08002d4d         Code  Wk  start_iar.o [1]
+USART3_IRQHandler       0x08002d51         Code  Wk  start_iar.o [1]
+USART_ClockInit         0x0800210d   0x24  Code  Gb  stm32f10x_usart.o [1]
+USART_Cmd               0x08002131   0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x0800214d   0x52  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x08002049   0xbe  Code  Gb  stm32f10x_usart.o [1]
+USB_HP_CAN1_TX_IRQHandler
+                        0x08002d01         Code  Wk  start_iar.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                        0x08002d05         Code  Wk  start_iar.o [1]
+UsageFault_Handler      0x08002c8b    0x2  Code  Gb  stm32f10x_it.o [1]
+WWDG_IRQHandler         0x08002cb5         Code  Wk  start_iar.o [1]
+__cmain                 0x08002c39         Code  Gb  cmain.o [4]
+__exit                  0x08002c65         Code  Gb  XXexit.o [4]
+__iar_copy_init3        0x0800219f   0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x08002bcd   0x2c  Code  Gb  data_init3.o [4]
+__iar_program_start     0x08002c91         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x080021e7   0x22  Code  Gb  zero_init3.o [4]
+__low_level_init        0x08002c1f         Code  Gb  start_iar.o [1]
+__vector_table          0x08000000         Data  Gb  start_iar.o [1]
+_call_main              0x08002c45         Code  Gb  cmain.o [4]
+_console_device         0x2000073c    0x4  Data  Lc  kservice.o [1]
+_exit                   0x08002c59         Code  Gb  cexit.o [4]
+_main                   0x08002c4b         Code  Gb  cmain.o [4]
+_rt_scheduler_stack_check
+                        0x08001547   0x68  Code  Lc  scheduler.o [1]
+_rt_thread_init         0x0800078f   0xae  Code  Lc  thread.o [1]
+_rt_timer_init          0x08000fef   0x20  Code  Lc  timer.o [1]
+divide                  0x08000229   0x32  Code  Lc  kservice.o [1]
+errno                   0x20000738    0x4  Data  Gb  kservice.o [1]
+exit                    0x08002c4f    0x8  Code  Gb  exit.o [3]
+idle                    0x200005ac   0x7c  Data  Lc  idle.o [1]
+main                    0x08002bb9   0x14  Code  Gb  startup.o [1]
+print_number            0x0800027d  0x128  Code  Lc  kservice.o [1]
+rt_application_init     0x080024b3   0x56  Code  Gb  application.o [1]
+rt_console_set_device   0x0800063f   0x32  Code  Gb  kservice.o [1]
+rt_current_priority     0x20000973    0x1  Data  Gb  scheduler.o [1]
+rt_current_thread       0x200008d0    0x4  Data  Gb  scheduler.o [1]
+rt_device_close         0x08000e1f   0x4c  Code  Gb  device.o [1]
+rt_device_find          0x08000d35   0x50  Code  Gb  device.o [1]
+rt_device_open          0x08000d89   0x96  Code  Gb  device.o [1]
+rt_device_register      0x08000d15   0x20  Code  Gb  device.o [1]
+rt_device_write         0x08000e6b   0x52  Code  Gb  device.o [1]
+rt_enter_critical       0x080017dd   0x16  Code  Gb  scheduler.o [1]
+rt_exit_critical        0x080017f3   0x30  Code  Gb  scheduler.o [1]
+rt_hw_board_init        0x08002a33   0x18  Code  Gb  board.o [1]
+rt_hw_console_output    0x08000671    0x2  Code  Wk  kservice.o [1]
+rt_hw_context_switch    0x08001477         Code  Gb  context_iar.o [1]
+rt_hw_context_switch_interrupt
+                        0x08001477         Code  Gb  context_iar.o [1]
+rt_hw_context_switch_to
+                        0x080014d1         Code  Gb  context_iar.o [1]
+rt_hw_hard_fault        0x08002c71         Code  Gb  fault_iar.o [1]
+rt_hw_hard_fault_exception
+                        0x080026c1   0x62  Code  Gb  fault.o [1]
+rt_hw_interrupt_disable
+                        0x08001469         Code  Gb  context_iar.o [1]
+rt_hw_interrupt_enable  0x08001471         Code  Gb  context_iar.o [1]
+rt_hw_interrupt_thread_switch
+                        0x080014f3         Code  Gb  context_iar.o [1]
+rt_hw_led_init          0x0800256d   0x34  Code  Gb  led.o [1]
+rt_hw_led_off           0x080025c3   0x22  Code  Gb  led.o [1]
+rt_hw_led_on            0x080025a1   0x22  Code  Gb  led.o [1]
+rt_hw_pend_sv           0x08001495         Code  Gb  context_iar.o [1]
+rt_hw_serial_register   0x08001d1d   0x8c  Code  Gb  serial.o [1]
+rt_hw_stack_init        0x08000f55   0x64  Code  Gb  stack.o [1]
+rt_hw_timer_handler     0x08002a23   0x10  Code  Gb  board.o [1]
+rt_hw_usart_init        0x0800282f   0x82  Code  Gb  usart.o [1]
+rt_interrupt_enter      0x08002a55   0x16  Code  Gb  irq.o [1]
+rt_interrupt_from_thread
+                        0x2000072c    0x4  Data  Gb  interrupt.o [1]
+rt_interrupt_leave      0x08002a6b   0x16  Code  Gb  irq.o [1]
+rt_interrupt_nest       0x20000972    0x1  Data  Gb  irq.o [1]
+rt_interrupt_to_thread  0x20000730    0x4  Data  Gb  interrupt.o [1]
+rt_kprintf              0x08000673   0x32  Code  Gb  kservice.o [1]
+rt_list_init            0x08001eb1    0x6  Code  Lc  mempool.o [1]
+rt_list_init            0x08001511    0x6  Code  Lc  scheduler.o [1]
+rt_list_init            0x08000769    0x6  Code  Lc  thread.o [1]
+rt_list_init            0x08000fb9    0x6  Code  Lc  timer.o [1]
+rt_list_insert_after    0x08001eb7    0xe  Code  Lc  mempool.o [1]
+rt_list_insert_after    0x08001301    0xe  Code  Lc  object.o [1]
+rt_list_insert_before   0x08001517    0xe  Code  Lc  scheduler.o [1]
+rt_list_insert_before   0x0800076f    0xe  Code  Lc  thread.o [1]
+rt_list_insert_before   0x08000fbf    0xe  Code  Lc  timer.o [1]
+rt_list_isempty         0x08001537   0x10  Code  Lc  scheduler.o [1]
+rt_list_isempty         0x08000fdf   0x10  Code  Lc  timer.o [1]
+rt_list_remove          0x0800130f   0x12  Code  Lc  object.o [1]
+rt_list_remove          0x08001525   0x12  Code  Lc  scheduler.o [1]
+rt_list_remove          0x0800077d   0x12  Code  Lc  thread.o [1]
+rt_list_remove          0x08000fcd   0x12  Code  Lc  timer.o [1]
+rt_lowest_bitmap        0x0800191c  0x100  Data  Gb  scheduler.o [1]
+rt_memset               0x08000169   0x52  Code  Gb  kservice.o [1]
+rt_mp_alloc             0x08001f5d   0xac  Code  Gb  mempool.o [1]
+rt_mp_alloc_hook        0x200007c0    0x4  Data  Lc  mempool.o [1]
+rt_mp_init              0x08001ec5   0x98  Code  Gb  mempool.o [1]
+rt_object_attach_hook   0x200007c4    0x4  Data  Lc  object.o [1]
+rt_object_container     0x20000000   0x90  Data  Gb  object.o [1]
+rt_object_detach        0x0800136b   0x4e  Code  Gb  object.o [1]
+rt_object_detach_hook   0x200007c8    0x4  Data  Lc  object.o [1]
+rt_object_init          0x08001323   0x48  Code  Gb  object.o [1]
+rt_object_is_systemobject
+                        0x080013c9   0x3c  Code  Gb  object.o [1]
+rt_object_take_hook     0x200007cc    0x4  Data  Gb  object.o [1]
+rt_schedule             0x08001653   0xd0  Code  Gb  scheduler.o [1]
+rt_schedule_insert_thread
+                        0x08001723   0x5c  Code  Gb  scheduler.o [1]
+rt_schedule_remove_thread
+                        0x0800177f   0x5e  Code  Gb  scheduler.o [1]
+rt_scheduler_hook       0x200008d8    0x4  Data  Lc  scheduler.o [1]
+rt_scheduler_lock_nest  0x20000970    0x2  Data  Lc  scheduler.o [1]
+rt_serial_close         0x08001ae7    0x4  Code  Lc  serial.o [1]
+rt_serial_control       0x08001cbd   0x60  Code  Lc  serial.o [1]
+rt_serial_enable_dma    0x08001b6d   0x44  Code  Lc  serial.o [1]
+rt_serial_init          0x08001a59   0x8a  Code  Lc  serial.o [1]
+rt_serial_open          0x08001ae3    0x4  Code  Lc  serial.o [1]
+rt_serial_read          0x08001aeb   0x82  Code  Lc  serial.o [1]
+rt_serial_write         0x08001bb1  0x10c  Code  Lc  serial.o [1]
+rt_set_errno            0x08000151   0x18  Code  Gb  kservice.o [1]
+rt_show_version         0x080001fd   0x2c  Code  Gb  kservice.o [1]
+rt_strlen               0x080001ed   0x10  Code  Gb  kservice.o [1]
+rt_strncmp              0x080001bb   0x32  Code  Gb  kservice.o [1]
+rt_system_object_init   0x08001321    0x2  Code  Gb  object.o [1]
+rt_system_scheduler_init
+                        0x080015af   0x30  Code  Gb  scheduler.o [1]
+rt_system_scheduler_start
+                        0x080015df   0x74  Code  Gb  scheduler.o [1]
+rt_system_tick_init     0x08001a1d    0x8  Code  Gb  clock.o [1]
+rt_system_timer_init    0x0800124f    0xa  Code  Gb  timer.o [1]
+rt_thread_delay         0x08000a6b    0x8  Code  Gb  thread.o [1]
+rt_thread_entry_led1    0x08002451   0x30  Code  Lc  application.o [1]
+rt_thread_entry_led2    0x08002481   0x32  Code  Gb  application.o [1]
+rt_thread_exit          0x08000979   0x3c  Code  Lc  thread.o [1]
+rt_thread_idle_entry    0x08002b35   0x12  Code  Lc  idle.o [1]
+rt_thread_idle_hook     0x20000728    0x4  Data  Lc  idle.o [1]
+rt_thread_idle_init     0x08002b47   0x2e  Code  Gb  idle.o [1]
+rt_thread_init          0x0800083d   0xc0  Code  Gb  thread.o [1]
+rt_thread_priority_table
+                        0x200007d0  0x100  Data  Gb  scheduler.o [1]
+rt_thread_ready_priority_group
+                        0x200008d4    0x4  Data  Gb  scheduler.o [1]
+rt_thread_resume        0x08000ac7   0x6a  Code  Gb  thread.o [1]
+rt_thread_self          0x080008fd    0x8  Code  Gb  thread.o [1]
+rt_thread_sleep         0x08000a03   0x68  Code  Gb  thread.o [1]
+rt_thread_stack         0x20000628  0x100  Data  Lc  idle.o [1]
+rt_thread_startup       0x08000905   0x74  Code  Gb  thread.o [1]
+rt_thread_suspend       0x08000a73   0x54  Code  Gb  thread.o [1]
+rt_thread_switch_interrput_flag
+                        0x20000734    0x4  Data  Gb  interrupt.o [1]
+rt_thread_timeout       0x08000b31   0x70  Code  Gb  thread.o [1]
+rt_thread_yield         0x080009b5   0x4e  Code  Gb  thread.o [1]
+rt_tick                 0x200005a8    0x4  Data  Lc  clock.o [1]
+rt_tick_get             0x08001a25    0x6  Code  Gb  clock.o [1]
+rt_tick_increase        0x08001a2b   0x2a  Code  Gb  clock.o [1]
+rt_timer_check          0x080011d3   0x7c  Code  Gb  timer.o [1]
+rt_timer_control        0x0800116f   0x64  Code  Gb  timer.o [1]
+rt_timer_detach         0x08001063   0x46  Code  Gb  timer.o [1]
+rt_timer_init           0x0800100f   0x54  Code  Gb  timer.o [1]
+rt_timer_list           0x200008dc    0x8  Data  Lc  timer.o [1]
+rt_timer_start          0x080010a9   0xc6  Code  Gb  timer.o [1]
+rt_timer_timeout_hook   0x200008e4    0x4  Data  Lc  timer.o [1]
+rtthread_startup        0x08002b91   0x28  Code  Gb  startup.o [1]
+skip_atoi               0x0800025b   0x22  Code  Lc  kservice.o [1]
+thread_led1             0x200002b0   0x7c  Data  Gb  application.o [1]
+thread_led1_stack       0x200000b0  0x200  Data  Gb  application.o [1]
+thread_led2             0x2000052c   0x7c  Data  Gb  application.o [1]
+thread_led2_stack       0x2000032c  0x200  Data  Gb  application.o [1]
+uart1                   0x200000a4    0xc  Data  Gb  usart.o [1]
+uart1_device            0x20000930   0x40  Data  Gb  usart.o [1]
+uart1_int_rx            0x200008e8   0x48  Data  Gb  usart.o [1]
+vsnprintf               0x080003a5  0x29a  Code  Lc  kservice.o [1]
+
+
+[1] = J:\rt-thread\workspace\RT-Thread_0.3.4\bsp\stm32_fighting\project_led_simple\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+
+  11 504 bytes of readonly  code memory
+     212 bytes of readonly  data memory
+   2 936 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

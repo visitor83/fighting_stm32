@@ -1,0 +1,9 @@
+.\obj\symbol.o: ..\..\..\finsh\symbol.c
+.\obj\symbol.o: ..\..\..\finsh\finsh.h
+.\obj\symbol.o: ..\..\..\include\rtthread.h
+.\obj\symbol.o: ..\..\..\include\rtdef.h
+.\obj\symbol.o: .\rtconfig.h
+.\obj\symbol.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\symbol.o: C:\Keil\ARM\RV31\INC\ctype.h
+.\obj\symbol.o: C:\Keil\ARM\RV31\INC\stdlib.h
+.\obj\symbol.o: C:\Keil\ARM\RV31\INC\string.h

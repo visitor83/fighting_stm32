@@ -1,0 +1,11 @@
+.\obj\asc16font.o: ..\..\rtgui\common\asc16font.c
+.\obj\asc16font.o: ..\..\rtgui\include\rtgui/font.h
+.\obj\asc16font.o: ..\..\rtgui\include\rtgui/rtgui.h
+.\obj\asc16font.o: ..\..\include\rtthread.h
+.\obj\asc16font.o: ..\..\include\rtdef.h
+.\obj\asc16font.o: .\rtconfig.h
+.\obj\asc16font.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\asc16font.o: ..\..\rtgui\include\rtgui/rtgui_config.h
+.\obj\asc16font.o: ..\..\rtgui\include\rtgui/rtgui_object.h
+.\obj\asc16font.o: ..\..\rtgui\include\rtgui/list.h
+.\obj\asc16font.o: ..\..\rtgui\include\rtgui/tree.h

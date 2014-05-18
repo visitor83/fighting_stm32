@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>project/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>298</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <TerminalIO/>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+    <SourceBrowser/></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4296-405</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>project</ExpandedNode><ExpandedNode>project/Filesystem</ExpandedNode><ExpandedNode>project/Kernel</ExpandedNode></NodeDict></Session>
+          </Tab>
+        <Tab><Identity>TabID-15756-1623</Identity><TabName>Source Browser</TabName><Factory>SourceBrowser</Factory><Session><TypeFilter>2147483647</TypeFilter><FileFilter>1</FileFilter></Session></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-13999-428</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-25856-820</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\startup.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1830</SelStart><SelEnd>1830</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\application.c</Filename><XPos>0</XPos><YPos>22</YPos><SelStart>721</SelStart><SelEnd>733</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\led.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>1064</SelStart><SelEnd>1064</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\rtconfig.h</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>108</SelStart><SelEnd>108</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\board.h</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>1563</SelStart><SelEnd>1563</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\src\clock.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\filesystem\dfs\filesystems\elmfat\dfs_elm.c</Filename><XPos>0</XPos><YPos>563</YPos><SelStart>10860</SelStart><SelEnd>10860</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\filesystem\dfs\filesystems\elmfat\ff.c</Filename><XPos>0</XPos><YPos>2448</YPos><SelStart>76566</SelStart><SelEnd>76566</SelEnd></Tab><ActiveTab>7</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\filesystem\dfs\filesystems\elmfat\ff.h</Filename><XPos>0</XPos><YPos>537</YPos><SelStart>27811</SelStart><SelEnd>27811</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-012eb680><key>iaridepm.enu1</key></Toolbar-012eb680></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>439</Bottom><Right>389</Right><x>-2</x><y>-2</y><xscreen>362</xscreen><yscreen>350</yscreen><sizeHorzCX>282813</sizeHorzCX><sizeHorzCY>483425</sizeHorzCY><sizeVertCX>305469</sizeVertCX><sizeVertCY>609116</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>240</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>242</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>334254</sizeHorzCY><sizeVertCX>282813</sizeVertCX><sizeVertCY>483425</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

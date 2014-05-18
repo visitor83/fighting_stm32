@@ -1,0 +1,9 @@
+.\obj\color.o: ..\..\rtgui\common\color.c
+.\obj\color.o: ..\..\rtgui\include\rtgui/color.h
+.\obj\color.o: ..\..\rtgui\include\rtgui/rtgui.h
+.\obj\color.o: ..\..\include\rtthread.h
+.\obj\color.o: ..\..\include\rtdef.h
+.\obj\color.o: .\rtconfig.h
+.\obj\color.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\color.o: ..\..\rtgui\include\rtgui/rtgui_config.h
+.\obj\color.o: ..\..\rtgui\include\rtgui/rtgui_object.h

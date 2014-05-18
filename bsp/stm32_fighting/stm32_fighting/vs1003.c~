@@ -1,0 +1,9 @@
+void vs1003_init(void)
+
+{
+    GPIO_InitTypeDef GPIO_InitStructur;
+    
+    // GPIO colock init
+    
+    // GPIO configuration SDA SCL pins
+}

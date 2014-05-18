@@ -1,0 +1,11 @@
+.\obj\asc12font.o: ..\..\rtgui\common\asc12font.c
+.\obj\asc12font.o: ..\..\rtgui\include\rtgui/font.h
+.\obj\asc12font.o: ..\..\rtgui\include\rtgui/rtgui.h
+.\obj\asc12font.o: ..\..\include\rtthread.h
+.\obj\asc12font.o: ..\..\include\rtdef.h
+.\obj\asc12font.o: .\rtconfig.h
+.\obj\asc12font.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\asc12font.o: ..\..\rtgui\include\rtgui/rtgui_config.h
+.\obj\asc12font.o: ..\..\rtgui\include\rtgui/rtgui_object.h
+.\obj\asc12font.o: ..\..\rtgui\include\rtgui/list.h
+.\obj\asc12font.o: ..\..\rtgui\include\rtgui/tree.h

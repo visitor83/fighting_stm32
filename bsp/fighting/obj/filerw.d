@@ -1,0 +1,10 @@
+.\obj\filerw.o: ..\..\rtgui\common\filerw.c
+.\obj\filerw.o: ..\..\rtgui\include\rtgui/filerw.h
+.\obj\filerw.o: ..\..\rtgui\include\rtgui/rtgui.h
+.\obj\filerw.o: ..\..\include\rtthread.h
+.\obj\filerw.o: ..\..\include\rtdef.h
+.\obj\filerw.o: .\rtconfig.h
+.\obj\filerw.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\filerw.o: ..\..\rtgui\include\rtgui/rtgui_config.h
+.\obj\filerw.o: ..\..\rtgui\include\rtgui/rtgui_object.h
+.\obj\filerw.o: ..\..\rtgui\include\rtgui/rtgui_system.h
