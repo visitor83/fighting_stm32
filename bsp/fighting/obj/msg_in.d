@@ -1,0 +1,12 @@
+.\obj\msg_in.o: ..\..\net\lwip\src\core\snmp\msg_in.c
+.\obj\msg_in.o: ..\..\net\lwip\src\include\lwip/opt.h
+.\obj\msg_in.o: ..\..\net\lwip\src\lwipopts.h
+.\obj\msg_in.o: .\rtconfig.h
+.\obj\msg_in.o: ..\..\net\lwip\src\include\lwip/debug.h
+.\obj\msg_in.o: ..\..\net\lwip\src\include\lwip/arch.h
+.\obj\msg_in.o: ..\..\net\lwip\src\arch\include\arch/cc.h
+.\obj\msg_in.o: ..\..\include\rthw.h
+.\obj\msg_in.o: ..\..\include\rtthread.h
+.\obj\msg_in.o: ..\..\include\rtdef.h
+.\obj\msg_in.o: C:\Keil\ARM\RV31\INC\stdarg.h
+.\obj\msg_in.o: C:\Keil\ARM\RV31\INC\string.h

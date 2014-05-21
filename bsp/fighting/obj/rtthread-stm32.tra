@@ -118,7 +118,7 @@
 ### ADS-LD Output File: '.\obj\rtthread-stm32.axf'
 ### ADS-LD Command File: '.\obj\rtthread-stm32.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\obj\rtthread-stm32.lnp', Handle=0x00001254
+### Creating CmdFile '.\obj\rtthread-stm32.lnp', Handle=0x000001E0
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\obj\rtthread-stm32.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
