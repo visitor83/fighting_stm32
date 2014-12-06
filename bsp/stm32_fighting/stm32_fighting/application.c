@@ -37,7 +37,7 @@
 
 void rt_init_thread_entry(void* parameter)
 {
-/* Filesystem Initialization */
+	/* Filesystem Initialization */
 #ifdef RT_USING_DFS
 	{
 		/* init the device filesystem */
